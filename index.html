@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div id="calculator">
+        <input id="display" readonly>
+    <div id="keys">
+        <button onclick="clearDisplay('AC')" class="operatorbtn">AC</button>
+        <button onclick="symbolDisplay('<')" class="operatorbtn"><</button>
+        <button onclick="operationClick('%')" class="operatorbtn">%</button>
+        <button onclick="operationClick('/')" class="operatorbtn">/</button>
+        <button onclick="numClick('7')">7</button>
+        <button onclick="numClick('8')">8</button>
+        <button onclick="numClick('9')">9</button>
+        <button onclick="operationClick('*')" class="operatorbtn">x</button>
+        <button onclick="numClick('4')">4</button>
+        <button onclick="numClick('5')">5</button>
+        <button onclick="numClick('6')">6</button>
+        <button onclick="operationClick('-')" class="operatorbtn">-</button>
+        <button onclick="numClick('1')">1</button>
+        <button onclick="numClick('2')">2</button>
+        <button onclick="numClick('3')">3</button>
+        <button onclick="operationClick('+')" class="operatorbtn">+</button>
+        <button onclick="numClick('0')" class="zero" colspan="2">0</button>
+        <button onclick="dotDisplay('.')" >.</button>
+        <button onclick="calculate('=')" class="operatorbtn">=</button>
+    </div>
+    </div>
+    </div>
+        <div id="info">
+            <p><b>Angel Jean Obsioma</b></p>
+            <p><b>Web System and Technology</b></p>
+            <p><b>Calculator</b></p>
+            <img src="/image/panda.png" alt="Panda Image" class="calculator-image"; >
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
